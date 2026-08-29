@@ -1,0 +1,16 @@
+data/
+logs/
+results/
+
+__pycache__/
+*.pyc
+
+*.pt
+*.pth
+*.ckpt
+
+.ipynb_checkpoints/
+.env1~Uo'
+OOO
+
+awd123G
