@@ -1,0 +1,25 @@
+{
+  "name": "utexas_eif4e_apt1_no_msa",
+  "modelSeeds": [
+    42
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MATVEPETTPTPNPPTTEEEKTESNQEVANPEHYIKHPLQNRWALWFFKNDKSKTWQANLRLISKFDTVEDFWALYNHIQLSSNLMPGCDYSLFKDGIEPMWEDEKNKRGGRWLITLNKQQRRSDLDRFWLETLLCLIGESFDDYSDDVCGAVVNVRAKGDKIAIWTTECENREAVTHIGRVYKERLGLPPKIVIGYQSHADTATKSGSTTKNRFVV",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "dna": {
+        "id": "B",
+        "sequence": "ACACTCTTTCCCTACACGACGCTCTTCCGATCTTGAGTAGTCAGGGATCAGTGCGGTTCGTGATGGAGATCGGAAGAGCTC"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}

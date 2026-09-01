@@ -1,0 +1,27 @@
+UTexas Task 3 checkpoint
+Date: 2026-09-01
+
+Pilot complex:
+UTEXAS_10000969_R1012
+Human eIF4E P06730 + DNA Apt 1
+
+AF3 mode:
+No MSA / no templates
+Seed: 42
+
+Slurm job:
+2952322
+
+Result:
+COMPLETED
+ExitCode: 0:0
+Runtime: 00:01:26
+
+Input:
+af3_inputs/utexas_eif4e_apt1_no_msa.json
+
+Slurm script:
+scripts/af3_utexas_eif4e.slurm
+
+Output:
+af3_output/utexas_eif4e_apt1_no_msa/
