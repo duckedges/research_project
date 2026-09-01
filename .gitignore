@@ -1,16 +1,15 @@
-data/
-logs/
+# Generated outputs
+af3_output/
 results/
+logs/
 
+# Large/model files
+*.tar
+*.sif
+*.ckpt
+*.bin
+*.bin.zst
+
+# Python
 __pycache__/
 *.pyc
-
-*.pt
-*.pth
-*.ckpt
-
-.ipynb_checkpoints/
-.env1~Uo'
-OOO
-
-awd123G

@@ -1,0 +1,23 @@
+{
+  "name": "TetR_homodimer_no_msa",
+  "sequences": [
+    {
+      "protein": {
+        "id": [
+          "A",
+          "B"
+        ],
+        "sequence": "MARLNRESVIDAALELLNETGIDGLTTRKLAQKLGIEQPTLYWHVKNKRALLDALAVEILARHHDYSLPAAGESWQSFLRNNAMSFRRALLRYRDGAKVHLGTRPDEKQYDTVETQLRFMTENGFSLRDGLYAISAVSHFTLGAVLEQQEHTAALTDRPAAPDENLPPLLREALQIMDSDDGEQAFLHGLESLIRGFEVQLTALLQIVGGDKLIIPFC",
+        "description": "Tetracycline repressor protein class D, E. coli (UniProt P0ACT4, 218 aa)",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    }
+  ],
+  "modelSeeds": [
+    42
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}
