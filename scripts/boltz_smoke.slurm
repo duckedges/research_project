@@ -11,7 +11,7 @@
 #SBATCH --error=/projects/bentosprg6/linwx/research_project/logs/boltz_smoke_%j.err
 
 # Exit immediately if a command fails
-set -e
+set -euo pipefail
 
 echo "===== Job Information ====="
 echo "Job ID: $SLURM_JOB_ID"
@@ -32,7 +32,8 @@ export TMPDIR=/scratch/linwx/tmp
 
 mkdir -p "$BOLTZ_CACHE"
 mkdir -p "$TMPDIR"
-mkdir -p /projects/bentosprg6/linwx/research_project/results/boltz_batch
+OUTDIR=/projects/bentosprg6/linwx/research_project/results/boltz_batch_${SLURM_JOB_ID}
+mkdir -p "$OUTDIR"
 
 echo "===== Python / CUDA ====="
 
@@ -43,7 +44,7 @@ echo "===== Running Boltz ====="
 cd /projects/bentosprg6/linwx/repos/boltz
 
 boltz predict examples/prot_no_msa.yaml \
-    --out_dir /projects/bentosprg6/linwx/research_project/results/boltz_batch \
+    --out_dir "$OUTDIR" \
     --devices 1
 
 echo "===== Finished ====="
