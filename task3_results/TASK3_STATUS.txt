@@ -1,0 +1,44 @@
+Task 3 - AlphaFold 3 aptamer complex pilot
+
+Complex 1
+---------
+UTEXAS_10000969_R1012
+Human eIF4E + DNA Apt 1
+AF3 job: 2952322
+Status: COMPLETED
+Runtime: 00:01:26
+
+Complex 2
+---------
+UTEXAS_10000342_R364
+Mouse CCL2/MCP-1 + RNA ADR7
+Experimental Kd: 0.18 nM
+AF3 first attempt: 2952864
+Status: FAILED
+Reason: RNA chain missing explicit unpaired MSA.
+
+AF3 corrected job: 2953660
+Status: COMPLETED
+Runtime: 00:01:17
+
+Configuration
+-------------
+AlphaFold 3 inference only
+Seed 42
+5 diffusion samples per complex
+Protein MSA explicitly empty
+RNA MSA explicitly empty where applicable
+No templates
+Data pipeline disabled
+
+Important limitation
+--------------------
+These are deliberately MSA-free pilot predictions because the full AF3
+database/data-pipeline installation was not available in the current
+Andromeda workflow. Confidence scores should therefore be interpreted
+accordingly.
+
+Outputs
+-------
+task3_results/af3_all_sample_metrics.csv
+task3_results/af3_complex_summary.csv

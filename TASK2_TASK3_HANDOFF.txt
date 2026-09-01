@@ -1,0 +1,143 @@
+RA Project - Task 2 / Task 3 Handoff
+Date: 2026-09-01
+
+====================
+TASK 2 - COMPLETE
+====================
+
+UTexas Aptamer Dataset:
+Zenodo record 8387047
+September 2023 dataset downloaded and checksum verified.
+
+Task 2 workspace:
+/projects/bentosprg6/linwx/ra_project/task2_utexas
+
+Dataset summary:
+1495 total aptamer records
+559 unique targets
+909 DNA
+583 RNA
+3 other
+
+Sequence preparation:
+1429 canonical DNA/RNA sequences
+1217 DIRECT_READY
+212 READY_AFTER_MOD_REVIEW
+66 SEQUENCE_REVIEW
+
+Important processed files:
+data/processed/aptamers_clean.csv
+data/processed/model_manifest.csv
+data/processed/aptamer_chains_direct_ready.csv
+data/processed/targets_to_resolve.csv
+data/processed/target_summary.csv
+
+Preparation workflow:
+UTexas record
+ -> normalize DNA/RNA sequence
+ -> identify target
+ -> resolve target molecular representation
+ -> protein: amino-acid sequence
+ -> DNA/RNA: nucleotide sequence
+ -> ligand: CCD/SMILES
+ -> generate AF3 JSON / Boltz YAML
+
+====================
+TASK 3 - PILOT COMPLETE
+====================
+
+AlphaFold 3 setup:
+/projects/bentosprg6/linwx/research_project
+
+AF3 configuration:
+Inference only
+No MSA
+No templates
+Data pipeline disabled
+Seed 42
+5 diffusion samples per complex
+A100 GPU
+
+Complex 1:
+UTEXAS_10000969_R1012
+Human eIF4E P06730 + DNA Apt 1
+Protein: 217 aa
+DNA: 81 nt
+AF3 job: 2952322
+Status: COMPLETED
+Runtime: 00:01:26
+Best sample: 3
+ranking_score: 0.22
+pTM: 0.20
+ipTM: 0.04
+protein-aptamer ipTM: 0.04
+protein-aptamer PAE min: 30.76 A
+Interpretation: very low-confidence interface.
+
+Complex 2:
+UTEXAS_10000342_R364
+Mouse CCL2/MCP-1 P10148 Q24-R96 + RNA ADR7
+Protein: 73 aa
+RNA: 70 nt
+Experimental Kd: 0.18 nM
+
+First AF3 job: 2952864
+Status: FAILED
+Reason: RNA chain missing explicit unpaired MSA.
+
+Corrected AF3 job: 2953660
+Status: COMPLETED
+Runtime: 00:01:17
+Best sample: 3
+ranking_score: 0.29
+pTM: 0.41
+ipTM: 0.15
+protein-aptamer ipTM: 0.15
+protein-aptamer PAE min: 11.93 A
+Interpretation: better than eIF4E/Apt1 but still low-confidence interface.
+
+Task 3 result files:
+task3_results/af3_all_sample_metrics.csv
+task3_results/af3_complex_summary.csv
+task3_results/TASK3_STATUS.txt
+
+Important limitation:
+These were deliberately MSA-free pilot predictions because the full
+AlphaFold 3 database/data-pipeline installation was not configured.
+
+====================
+TASK 4 STARTING POINT
+====================
+
+Goal:
+Adapt Boltz-2 affinity prediction so it attempts affinity prediction
+with DNA/RNA aptamers rather than only small-molecule ligand binders.
+
+Existing Boltz setup:
+
+Repository:
+/projects/bentosprg6/linwx/repos/boltz
+
+Python environment:
+/projects/bentosprg6/linwx/envs/boltz
+
+Cache:
+/projects/bentosprg6/linwx/cache/boltz
+
+Existing Slurm script:
+scripts/boltz_smoke.slurm
+
+Recommended first Task 4 complex:
+Mouse CCL2/MCP-1 + RNA ADR7
+UTEXAS_10000342_R364
+Experimental Kd: 0.18 nM
+
+Task 4 plan:
+1. Identify exact Boltz version/commit.
+2. Find where affinity binder is restricted to ligand chains.
+3. Create stock ADR7 affinity YAML with RNA binder.
+4. Reproduce stock failure.
+5. Make minimal local code patch allowing RNA/DNA binder.
+6. Run again and follow downstream errors.
+7. Continue minimal patches until Boltz-2 emits an affinity prediction.
+8. Record code modifications and resulting output.

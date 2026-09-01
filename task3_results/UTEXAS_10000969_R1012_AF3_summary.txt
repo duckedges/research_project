@@ -1,0 +1,42 @@
+UTexas Aptamer AlphaFold 3 Result
+
+Model ID:
+UTEXAS_10000969_R1012
+
+Complex:
+Human eIF4E (UniProt P06730), 217 aa
+DNA Apt 1, 81 nt
+
+AF3 configuration:
+Seed 42
+5 diffusion samples
+No protein MSA
+No templates
+Data pipeline disabled
+
+Slurm job:
+2952322
+
+Execution:
+COMPLETED
+Exit code 0:0
+Runtime 00:01:26
+
+Best ranked sample:
+sample 3
+
+Best-sample approximate confidence:
+ranking_score = 0.22
+pTM = 0.20
+ipTM = 0.04
+protein-aptamer chain-pair ipTM = 0.04
+protein-aptamer PAE minimum ~30.76 Angstrom
+has_clash = 0
+
+Interpretation:
+AlphaFold 3 successfully generated the protein-DNA complex, demonstrating
+that the UTexas aptamer data can be converted into runnable AF3 inputs.
+However, confidence in both the global complex and the protein-aptamer
+interface is very low. The predicted binding pose should therefore not be
+treated as reliable structural evidence. This run was performed without
+protein MSA or templates and serves as an MSA-free pilot/baseline.

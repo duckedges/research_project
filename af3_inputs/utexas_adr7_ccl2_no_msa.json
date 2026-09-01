@@ -1,0 +1,28 @@
+{
+  "name": "utexas_adr7_ccl2_no_msa",
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "QPDAVNAPLTCCYSFTSKMIPMSRLESYKRITSSRCPKEAVVFVTKLKREVCADPKKEWVQTYIKNLDRNQMR",
+        "description": "Mouse CCL2/MCP-1, UniProt P10148, modeled as Q24-R96",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "rna": {
+        "id": "B",
+        "sequence": "GGGAGGACGAUGCGGGAACUCACCGGGAAGAAGCCCGUUCCGUCACAGACAUGUUCCGCAUCGUCCUCCC",
+        "description": "UTexas ADR7 RNA aptamer, UTEXAS_10000342_R364; reported Kd 0.18 nM",
+        "unpairedMsa": ""
+      }
+    }
+  ],
+  "modelSeeds": [
+    42
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}
