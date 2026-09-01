@@ -13,3 +13,4 @@ logs/
 # Python
 __pycache__/
 *.pyc
+af3_logs/
