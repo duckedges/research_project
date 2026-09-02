@@ -1,0 +1,46 @@
+From 52797e31cb6a6ecfff770b4da18c6ec455ba9552 Mon Sep 17 00:00:00 2001
+From: Jiaxin Lin <jiaxin.lin.alex@gmail.com>
+Date: Wed, 2 Sep 2026 11:11:44 -0400
+Subject: [PATCH] Allow RNA and DNA chains as Boltz-2 affinity binders
+
+---
+ src/boltz/data/parse/schema.py | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+diff --git a/src/boltz/data/parse/schema.py b/src/boltz/data/parse/schema.py
+index 9ffe7ad..8589d55 100644
+--- a/src/boltz/data/parse/schema.py
++++ b/src/boltz/data/parse/schema.py
+@@ -1062,7 +1062,7 @@ def parse_boltz_schema(  # noqa: C901, PLR0915, PLR0912
+                 msg = f"Could not find binder with name {binder} in the input!"
+                 raise ValueError(msg)
+ 
+-            if chain_name_to_entity_type[binder] != "ligand":
++            if chain_name_to_entity_type[binder] not in {"ligand", "rna", "dna"}:
+                 msg = (
+                     f"Chain {binder} is not a ligand! "
+                     "Affinity is currently only supported for ligands."
+@@ -1181,6 +1181,20 @@ def parse_boltz_schema(  # noqa: C901, PLR0915, PLR0912
+                 mol_dir=mol_dir,
+             )
+ 
++            # TASK 4: permit a DNA/RNA polymer to act as the Boltz-2 affinity binder.
++            # parse_polymer() normally leaves ParsedChain.affinity=False.
++            if affinity and parsed_chain is not None:
++                parsed_chain = ParsedChain(
++                    entity=parsed_chain.entity,
++                    residues=parsed_chain.residues,
++                    type=parsed_chain.type,
++                    cyclic_period=parsed_chain.cyclic_period,
++                    sequence=parsed_chain.sequence,
++                    affinity=True,
++                    # Placeholder only. We will NOT use affinity MW correction.
++                    affinity_mw=0.0,
++                )
++
+         # Parse a non-polymer
+         elif (entity_type == "ligand") and "ccd" in (items[0][entity_type]):
+             seq = items[0][entity_type]["ccd"]
+-- 
+2.43.5
+

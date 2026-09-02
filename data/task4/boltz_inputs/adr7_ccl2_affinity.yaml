@@ -1,0 +1,12 @@
+version: 1
+sequences:
+  - protein:
+      id: A
+      sequence: QPDAVNAPLTCCYSFTSKMIPMSRLESYKRITSSRCPKEAVVFVTKLKREVCADPKKEWVQTYIKNLDRNQMR
+      msa: empty
+  - rna:
+      id: B
+      sequence: GGGAGGACGAUGCGGGAACUCACCGGGAAGAAGCCCGUUCCGUCACAGACAUGUUCCGCAUCGUCCUCCC
+properties:
+  - affinity:
+      binder: B

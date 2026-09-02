@@ -1,0 +1,190 @@
+RA PROJECT - TASK 4 HANDOFF
+===========================
+
+TASK
+----
+Adapt Boltz-2 so that it can produce affinity predictions for aptamer
+complexes. Scientific accuracy of the predicted affinity is not required;
+the objective is to modify the code/workflow so inference runs.
+
+STATUS
+------
+TASK 4 CORE OBJECTIVE: COMPLETE
+
+Two UTexas aptamer complexes successfully completed structure prediction
+and Boltz-2 affinity inference after modifying Boltz-2 to allow RNA/DNA
+chains to act as affinity binders.
+
+BOLTZ ENVIRONMENT
+-----------------
+Boltz repository:
+  /projects/bentosprg6/linwx/repos/boltz
+
+Conda environment:
+  /projects/bentosprg6/linwx/envs/boltz
+
+Cache:
+  /projects/bentosprg6/linwx/cache/boltz
+
+Modified Boltz Git branch:
+  task4-aptamer-affinity
+
+Modified Boltz Git commit:
+  52797e3 Allow RNA and DNA chains as Boltz-2 affinity binders
+
+A portable copy of the code change is saved in the RA project as:
+  TASK4_BOLTZ_APTAMER_AFFINITY.patch
+
+ORIGINAL BOLTZ-2 LIMITATION
+---------------------------
+Boltz-2 affinity input validation normally requires the affinity binder
+chain to have entity type "ligand". RNA and DNA polymer chains therefore
+cannot normally be designated as affinity binders.
+
+The relevant parser was:
+  src/boltz/data/parse/schema.py
+
+The original validation rejected any binder for which:
+  chain_name_to_entity_type[binder] != "ligand"
+
+CODE ADAPTATION
+---------------
+Two parser changes were made.
+
+1. Binder validation was expanded from ligand-only to:
+     ligand, RNA, or DNA
+
+   Modified logic:
+     if chain_name_to_entity_type[binder] not in {"ligand", "rna", "dna"}:
+
+2. Polymer chains parsed through parse_polymer() normally do not receive
+   the affinity=True flag used by downstream affinity feature generation.
+
+   For the selected RNA/DNA affinity binder, a ParsedChain is therefore
+   created with:
+     affinity=True
+     affinity_mw=0.0
+
+Molecular-weight correction was NOT enabled during inference. The
+affinity_mw value is therefore only a placeholder for this unsupported
+proof-of-concept workflow.
+
+The Slurm scripts additionally set:
+  PYTHONPATH=/projects/bentosprg6/linwx/repos/boltz/src
+
+This guarantees inference imports the modified Boltz source tree instead
+of an unmodified site-packages installation.
+
+TEST 1 - RNA APTAMER
+--------------------
+Complex:
+  UTexas ADR7 / CCL2
+
+Protein:
+  Chain A
+  73 amino acids
+
+Aptamer:
+  Chain B
+  RNA
+  70 nucleotides
+
+Affinity binder:
+  B
+
+Input:
+  data/task4/boltz_inputs/adr7_ccl2_affinity.yaml
+
+Slurm script:
+  scripts/task4_adr7_affinity.slurm
+
+Slurm job:
+  2957682
+
+Result:
+  SUCCESS
+
+Boltz log reported:
+  Running structure prediction for 1 input.
+  Number of failed examples: 0
+  Predicting property: affinity
+  Running affinity prediction for 1 input.
+  Number of failed examples: 0
+
+Affinity output:
+  affinity_pred_value = 0.5938969284629822
+  affinity_probability_binary = 0.20878802239894867
+
+Output directory:
+  results/task4/adr7_ccl2_2957682/
+
+TEST 2 - DNA APTAMER
+--------------------
+Complex:
+  UTexas eIF4E / APT1
+
+Protein:
+  Chain A
+  217 amino acids
+
+Aptamer:
+  Chain B
+  DNA
+  81 nucleotides
+
+Affinity binder:
+  B
+
+Input:
+  data/task4/boltz_inputs/eif4e_apt1_affinity.yaml
+
+Slurm script:
+  scripts/task4_eif4e_affinity.slurm
+
+Slurm job:
+  2958522
+
+Result:
+  SUCCESS
+
+Boltz log reported:
+  Running structure prediction for 1 input.
+  Number of failed examples: 0
+  Predicting property: affinity
+  Running affinity prediction for 1 input.
+  Number of failed examples: 0
+
+Affinity output:
+  affinity_pred_value = 0.16774940490722656
+  affinity_probability_binary = 0.30153918266296387
+
+Output directory:
+  results/task4/eif4e_apt1_2958522/
+
+INTERPRETATION / LIMITATION
+---------------------------
+These affinity outputs demonstrate successful execution of the modified
+Boltz-2 affinity pipeline for RNA and DNA aptamers.
+
+They SHOULD NOT be interpreted as validated experimental aptamer binding
+affinities.
+
+Boltz-2 affinity modeling was developed for protein-small-molecule
+complexes. RNA/DNA aptamers are outside the normal supported affinity
+domain. The purpose of these runs is proof of technical adaptation and
+execution, consistent with the Task 4 requirement that predictions do
+not need to be correct.
+
+TASK 4 CONCLUSION
+-----------------
+Boltz-2 was successfully adapted to allow nucleic-acid aptamer chains to
+be specified as affinity binders.
+
+The modified workflow was validated on:
+  1. a protein-RNA aptamer complex
+  2. a protein-DNA aptamer complex
+
+Both completed structure prediction and affinity inference with zero
+failed examples and generated affinity output JSON files.
+
+No model retraining was performed.

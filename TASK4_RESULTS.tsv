@@ -1,0 +1,3 @@
+complex	target_chain	target_length	aptamer_chain	aptamer_type	aptamer_length	slurm_job	affinity_pred_value	affinity_probability_binary	status
+ADR7_CCL2	A	73	B	RNA	70	2957682	0.5938969284629822	0.20878802239894867	success
+eIF4E_APT1	A	217	B	DNA	81	2958522	0.16774940490722656	0.30153918266296387	success
