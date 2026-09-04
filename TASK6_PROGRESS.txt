@@ -1,0 +1,143 @@
+TASK 6 PROGRESS HANDOFF
+=======================
+
+Task:
+Rip the affinity module out of Boltz-2, wire it to AlphaFold 3,
+and fine-tune it for the UTexas Aptamer Dataset.
+
+STATUS
+------
+
+IN PROGRESS.
+
+COMPLETED
+---------
+
+1. AF3 embedding export successfully enabled.
+
+Test complex:
+utexas_eif4e_apt1_no_msa
+
+AF3 embedding shapes:
+single_embeddings = (298, 384)
+pair_embeddings   = (298, 298, 128)
+
+Both arrays were finite.
+
+2. AF3-to-Boltz bridge metadata successfully constructed.
+
+Test complex:
+217 protein/receptor tokens
+81 aptamer/binder tokens
+298 total tokens
+
+Bridge features:
+x_pred              = (1, 298, 3)
+token_to_rep_atom   = (1, 298, 298)
+token_pad_mask      = (1, 298)
+mol_type            = (1, 298)
+affinity_token_mask = (1, 298)
+
+Representative atom fallbacks = 0.
+
+3. Boltz-2 affinity module successfully isolated.
+
+Checkpoint:
+/projects/bentosprg6/linwx/cache/boltz/boltz2_aff.ckpt
+
+Boltz dimensions:
+token_s = 384
+token_z = 128
+
+Boltz affinity ensemble:
+affinity_module1 = 8 Pairformer blocks
+affinity_module2 = 4 Pairformer blocks
+
+Both pretrained heads loaded with:
+missing keys = []
+unexpected keys = []
+
+4. First standalone AF3 -> Boltz-2 affinity forward pass succeeded.
+
+Slurm job:
+2963898
+
+Results:
+Head 1 affinity_pred_value = approximately 47225.44
+Head 2 affinity_pred_value = approximately -3349.45
+Ensemble = approximately 21937.997
+
+All outputs finite = True.
+
+IMPORTANT:
+These values are NOT calibrated or scientifically meaningful.
+The huge values demonstrate the distribution mismatch between
+AF3 representations and the pretrained Boltz representations,
+which motivates fine-tuning/adaptation.
+
+Output:
+/projects/bentosprg6/linwx/task6_runtime/affinity/eif4e_af3_boltz_affinity.json
+
+5. Fine-tuning labels prepared.
+
+Experimental Kd values were converted using:
+
+boltz_target = log10(Kd_nM) - 3
+
+Full usable fine-tuning manifest:
+data/task6/task6_finetune_manifest.csv
+
+Current full manifest:
+1109 rows
+1063 unique aptamers
+483 unique targets
+
+Grouped split:
+train      = 891 rows / 386 targets
+validation = 103 rows / 48 targets
+test       = 115 rows / 49 targets
+
+6. Pilot selection investigation completed.
+
+The initial pilot based on task5_affinity_ranked_final.csv produced
+only 2 records because that ranked result table does not preserve
+complete sequence/target metadata for most successful Task-5 cases.
+
+Do NOT use that 2-row pilot.
+
+Important discovery:
+data/task5/targets/target_resolved.csv contains resolved protein_sequence.
+
+Task-5 prepared inputs:
+data/task5/boltz_inputs     = 342 YAMLs
+data/task5/recovery_inputs = 83 YAMLs
+
+YAML structure confirmed:
+protein chain A
+DNA/RNA aptamer chain B
+affinity binder B
+
+NEXT STEP
+---------
+
+Start with Step 36:
+
+Build the proper 64-case pilot by joining:
+
+data/task6/task6_finetune_manifest.csv
++
+data/task5/targets/target_resolved.csv
+
+Target pilot:
+48 train
+8 validation
+8 test
+
+Automatically choose the smallest practical complex-length cutoff
+among 384, 512, 640, and 768 residues.
+
+After that:
+1. Generate AF3 JSONs automatically for the pilot.
+2. Run AF3 embedding export as a Slurm array.
+3. Train AF3-to-Boltz representation adapters / affinity components.
+4. Evaluate train/validation/test performance.
