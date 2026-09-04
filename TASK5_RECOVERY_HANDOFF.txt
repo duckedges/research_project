@@ -1,0 +1,68 @@
+TASK 5 RECOVERY HANDOFF
+=======================
+
+Saved: Fri Sep  4 01:12:17 AM EDT 2026
+
+ORIGINAL TASK 5
+---------------
+Original Boltz-2 attempted: 342
+Successful affinity predictions: 337
+GPU_OOM: 5
+
+RECOVERY WORK
+-------------
+83 additional records were identified with:
+- READY_AFTER_MOD_REVIEW aptamer status
+- canonical DNA/RNA backbone
+- ACCEPT validated target
+
+Modeling approximation:
+Chemical modifications are not represented.
+Boltz-2 uses the unmodified canonical DNA/RNA backbone.
+
+Recovery candidates: 83
+
+Completed:
+- task5r_0001 smoke test: SUCCESS
+- task5r_0002-task5r_0074 and task5r_0076-task5r_0083: 81 SUCCESS
+
+Recovery successes so far: 82 / 83
+
+TOTAL SUCCESSFUL AFFINITY PREDICTIONS SO FAR
+--------------------------------------------
+Original successes: 337
+Recovery successes: 82
+Total successes: 419
+
+REMAINING CASE
+--------------
+task5r_0075
+Target: Tenascin-C (TN-C)
+Protein length: 2110 aa
+
+This case was submitted separately to an NVIDIA H200 because of its size.
+
+H200 Slurm Job ID: 2963209
+
+The job was RUNNING on gb001 when work was paused.
+
+CHECK TOMORROW
+--------------
+cd /projects/bentosprg6/linwx/research_project
+
+JOB=$(cat data/task5/recovery_h200_job.txt)
+
+sacct -j "$JOB" --format=JobID,JobName,State,Elapsed,ExitCode -P
+
+tail -n 40 "logs/task5/recovery_h200_${JOB}.out"
+
+find results/task5/recovery_large   -type f   -name 'affinity_task5r_0075.json'   -print
+
+IMPORTANT
+---------
+Do not rerun the original 337 successful predictions.
+Do not rerun the 82 successful recovery predictions.
+
+results/task5/ contains large raw prediction files and should NOT be committed to GitHub.
+
+After task5r_0075 finishes, update the combined result tables/workbook and full 1,495-record coverage accounting.

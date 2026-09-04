@@ -1,0 +1,11 @@
+version: 1
+sequences:
+  - ligand:
+      id: A
+      smiles: "C(CC(C(=O)O)N)CN=C(N)N"
+  - rna:
+      id: B
+      sequence: CGGAUGGAAGGCGUGGUUAGAAUCCAAUAGCCCAUCCG
+properties:
+  - affinity:
+      binder: B
