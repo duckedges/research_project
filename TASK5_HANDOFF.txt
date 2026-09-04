@@ -1,0 +1,324 @@
+RA Project - Task 5 Handoff
+============================
+
+TASK 5 STATUS
+-------------
+COMPLETE
+
+Goal:
+Run the Task-4-adapted Boltz-2 affinity workflow on the UTexas Aptamer
+Dataset and record predicted affinity outputs in a spreadsheet ranked
+from lowest to highest predicted affinity value.
+
+
+DATASET / INPUT SUMMARY
+-----------------------
+Original UTexas model records:
+1495
+
+Direct-ready aptamer chains:
+1217
+
+Unique target rows evaluated:
+559
+
+Final validated targets:
+135 ACCEPT
+16 REVIEW
+16 REJECT
+392 NOT_USABLE
+
+Accepted target types:
+77 protein
+58 ligand
+
+Final Boltz-2 run set:
+342 complexes
+
+Aptamer composition:
+214 DNA
+128 RNA
+
+Target composition:
+211 protein-target complexes
+131 ligand-target complexes
+
+
+BOLTZ-2 SETUP
+-------------
+Boltz repository:
+/projects/bentosprg6/linwx/repos/boltz
+
+Boltz environment:
+/projects/bentosprg6/linwx/envs/boltz
+
+Boltz cache:
+/projects/bentosprg6/linwx/cache/boltz
+
+Research project:
+/projects/bentosprg6/linwx/research_project
+
+Task 4 adaptation:
+Boltz-2 parser/workflow was modified so DNA/RNA polymer chains may be
+specified as the affinity binder.
+
+All Task 5 jobs verified that the Task 4 patched source tree was active
+before prediction.
+
+
+TASK 5 INPUTS
+-------------
+Generated Boltz YAML inputs:
+data/task5/boltz_inputs/
+
+Run manifest:
+data/task5/task5_run_manifest.csv
+
+Validated targets:
+data/task5/targets/target_validated.csv
+
+Target triage:
+data/task5/targets/target_triage.csv
+
+Target resolution:
+data/task5/targets/target_resolved.csv
+
+
+TASK 5 EXECUTION
+----------------
+Two smoke tests were completed successfully before production:
+
+task5_0001:
+RNA aptamer + small-molecule ligand
+
+task5_0002:
+DNA aptamer + protein
+
+Both completed:
+- structure prediction
+- affinity prediction
+- zero failed examples
+- affinity JSON generation
+
+Production standard Slurm array:
+Job ID 2962367
+
+337 standard complexes
+Result:
+337 COMPLETED
+
+Large-protein Slurm array:
+Job ID 2962368
+
+5 oversized complexes
+Result:
+5 FAILED due GPU out-of-memory during structure prediction.
+
+The five GPU-OOM runs were:
+
+task5_0049
+Activated protein C (APC), Human
+
+task5_0050
+Activated protein C (APC), Human
+
+task5_0313
+Mixed lineage leukemia protein 1 (MLL1)
+
+task5_0314
+Mixed lineage leukemia protein 1 (MLL1)
+
+task5_0330
+Thyroglobulin (Tg)
+
+Boltz reported:
+"WARNING: ran out of memory, skipping batch"
+
+The subsequent affinity stage failed because the required predicted
+structure/pre-affinity NPZ file had not been produced.
+
+
+FINAL COMPUTATIONAL RESULTS
+---------------------------
+Total attempted complexes:
+342
+
+Successful affinity predictions:
+337
+
+GPU-OOM failures:
+5
+
+Invalid affinity JSON:
+0
+
+Success rate among attempted complexes:
+337 / 342 = 98.54%
+
+Primary ranking field:
+affinity_pred_value
+
+Ranking:
+lowest to highest
+
+
+FINAL AFFINITY RANGE
+--------------------
+Lowest predicted affinity value:
+
+Rank:
+1
+
+Run:
+task5_0228
+
+Aptamer:
+UTEXAS_10000823
+
+Target:
+Interleukin-17A (IL-17A)
+
+affinity_pred_value:
+-1.9778105020523071
+
+
+Highest predicted affinity value:
+
+Rank:
+337
+
+Run:
+task5_0054
+
+Aptamer:
+UTEXAS_10000242
+
+Target:
+Nucleolin
+
+affinity_pred_value:
+3.4372799396514893
+
+
+FINAL RESULT FILES
+------------------
+Ranked successful predictions:
+data/task5/task5_affinity_ranked.csv
+
+All 342 attempted runs and status:
+data/task5/task5_all_status.csv
+
+Final Excel workbook:
+data/task5/TASK5_Boltz2_Aptamer_Affinity_Results.xlsx
+
+Excel sheets:
+1. Summary
+2. Ranked_Affinity
+3. All_Attempts
+4. Target_Resolution
+
+Progress/result summary:
+data/task5/TASK5_PROGRESS.txt
+
+
+IMPORTANT TASK 5 SCRIPTS
+------------------------
+scripts/task5/resolve_targets.py
+scripts/task5/validate_targets.py
+scripts/task5/generate_boltz_inputs.py
+scripts/task5/task5_smoke.slurm
+scripts/task5/task5_array.slurm
+scripts/task5/task5_large.slurm
+scripts/task5/task5_progress.sh
+scripts/task5/collect_affinity_results.py
+scripts/task5/create_task5_excel.py
+
+
+RAW PRODUCTION RESULTS
+----------------------
+results/task5/batch/
+
+Each successful run contains a Boltz affinity JSON such as:
+
+results/task5/batch/task5_XXXX/
+  boltz_results_task5_XXXX/
+    predictions/
+      task5_XXXX/
+        affinity_task5_XXXX.json
+
+Important affinity JSON fields retained in the spreadsheet include:
+
+affinity_pred_value
+affinity_probability_binary
+affinity_pred_value1
+affinity_probability_binary1
+affinity_pred_value2
+affinity_probability_binary2
+
+
+QUALITY CONTROL
+---------------
+Final CSV QC:
+PASS
+
+Checks included:
+- exactly 337 ranked successful rows
+- exactly 342 attempted rows
+- exactly 5 GPU_OOM rows
+- ranks sequential 1 through 337
+- affinity_pred_value sorted numerically ascending
+- no duplicate run IDs
+- ranked run IDs exactly match SUCCESS run IDs
+- expected five GPU_OOM run IDs confirmed
+
+Final Excel QC:
+PASS
+
+Workbook checks included:
+- required worksheets present
+- 337 Ranked_Affinity rows
+- ascending affinity ranking
+- sequential ranks
+- unique run IDs
+- 342 All_Attempts rows
+- 337 SUCCESS
+- 5 GPU_OOM
+- 135 ACCEPT target resolutions
+
+
+IMPORTANT INTERPRETATION / LIMITATION
+-------------------------------------
+Boltz-2 affinity modeling was developed for protein-small-molecule
+complexes.
+
+Task 4 modified the Boltz-2 workflow so RNA/DNA aptamer chains could be
+designated as affinity binders.
+
+Therefore, the Task 5 affinity values demonstrate successful technical
+execution of the adapted Boltz-2 workflow on aptamer complexes.
+
+They SHOULD NOT be interpreted as experimentally validated or
+quantitatively reliable aptamer binding affinities.
+
+Some protein targets are also represented by full-length UniProt
+sequences when the literature target refers to a domain, peptide, or
+other biological construct. This is another limitation of the current
+automated target-resolution workflow.
+
+No model retraining was performed.
+
+
+TASK 5 CONCLUSION
+-----------------
+Task 5 successfully ran the adapted Boltz-2 affinity workflow across
+342 prepared UTexas aptamer complexes.
+
+337 complexes produced valid affinity prediction JSON files and were
+recorded in a final Excel workbook ranked from lowest to highest
+affinity_pred_value.
+
+Five oversized protein complexes could not complete structure
+prediction because of GPU memory limitations and are explicitly
+recorded as GPU_OOM rather than omitted.
+
+Task 5 is complete.

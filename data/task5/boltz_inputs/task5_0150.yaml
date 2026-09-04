@@ -1,0 +1,11 @@
+version: 1
+sequences:
+  - ligand:
+      id: A
+      smiles: "C(CO)N"
+  - dna:
+      id: B
+      sequence: ATACCAGCTTATTCAATTGCTGCGAGGTGGGTGGGTGGGAGCAATTGATCCTCGCTTAGCTTCTACGGTGGGCTATCTAGATAGTAAGTGCAATCT
+properties:
+  - affinity:
+      binder: B

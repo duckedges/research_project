@@ -1,0 +1,11 @@
+version: 1
+sequences:
+  - ligand:
+      id: A
+      smiles: "CC(C)CC1=CC=C(C=C1)C(C)C(=O)[O-]"
+  - dna:
+      id: B
+      sequence: ATACCAGCTTATTCAATTGGATCGGCGACGTGGGTGTCGTGATTCGGGGTGAGATAGTAAGTGCAATCT
+properties:
+  - affinity:
+      binder: B

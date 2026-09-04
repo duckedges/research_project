@@ -1,0 +1,560 @@
+target_normalized,aptamer_count,direct_ready_aptamers,target_type,protein_sequence,nucleic_acid_sequence,smiles,ccd_code,resolution_status,resolution_notes,triage_type
+"Immunoglobulin E (IgE), Human",36,33,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Rev protein of HIV-1 (minimal Rev-binding element (RBE) found within the Rev Responsive Element (RRE)),36,36,,,,,,UNRESOLVED,,NUCLEIC_ACID_TARGET
+"Tumor necrosis factor alpha (hTNFα), Human",22,18,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Thrombin, Human",19,8,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Sialyllactose,18,18,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+"Keratinocyte growth factor (hKGF), Human",17,15,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Cryptosporidium parvum (C.parvum) oocysts,14,14,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Escherichia coli (E. coli) core bacterial RNA polymerase (RNAP),13,13,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human immunodeficiency virus type 1 Rev (HIV-1 Rev),13,13,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Eukaryotic translation initiation factor 4E (eIF4e),12,12,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Hepatoma HepG2 cells, Human",12,12,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Vascular Endothelial Growth Factor (VEGF),12,6,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Anti-neuroexcitation peptide III (ANEPIII),11,10,,,,,,UNRESOLVED,,UNCLASSIFIED
+Hematoporphyrin IX (HPIX),11,9,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Pro‐urokinase (PLAU), Human",11,11,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Basic fibroblast growth factor (bFGF),10,9,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Group A Streptococcus (GAS)*,10,7,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+17 beta-Estradiol (17β-Estradiol) (E2）,9,9,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Antibody-mediated inhibition of cytotoxic T cell antigen-4 (CTLA-4),9,8,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Chloramphenicol (Cam),9,9,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Reverse Transcriptase of Type 1 Human Immunodeficiency Virus (HIV-1 RT),9,8,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Salmonella typhimurium (S. typhimurium),9,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Abrin toxin, Abrus precatorius (A.precatorius)",8,8,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Autonomously replicating sequence‐binding factor 1 (ABF1) protein,8,8,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Liver cancer cell line BNL 1ME A.7R.1 (MEAR) (T-cell acute lymphoblastic leukemia cell line, CCRF-CEM)",8,5,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Pancreatic ductal adenocarcinoma cell line (PL45),8,8,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Proteinase K-resistant isoform (PrPSc),8,8,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Salmonella enterica (S. enteritidis),8,3,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Soft-shelled turtle iridovirus (STIV),8,8,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Streptavidin,8,8,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Vaccinia virus–infected lung cancer A549 cells,8,8,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Ara h 1 (peanut allergen),7,7,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"DNA polymerase (Taq pol), Thermus acquaticus",7,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Estrogen receptor alpha (ERα),7,7,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Lipopolysaccharide (LPS),7,7,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Ochratoxin A (OTA),7,3,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+"Pancreatic cancer cell line HPAC (CRL2119, human pancreatic adenocarcinoma)",7,7,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate specific antigen (PSA),7,6,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Ramos (CRL-1596, B lymphocyte, human Burkitt's lymphoma) cells",7,3,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Sphingosylphosphorylcholine (SPC),7,3,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Staphylococcus aureus (S. aureus) surface molecules,7,7,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Tetracycline (TET), oxytetracycline (OTC), doxycycline (DOX)",7,7,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Unr (Upstream of N-Ras) protein, Human",7,7,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Acute myeloid leukemia cells (HL60),6,6,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Adenosine triphosphate (ATP),6,3,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+C-terminal ribonuclease domain of colicin E3 (CRD of colicin E3),6,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Ethanolamine,6,6,,,,,,UNRESOLVED,,UNCLASSIFIED
+Fluorophore sulforhodamine B,6,5,,,,,,UNRESOLVED,,UNCLASSIFIED
+Guanosine triphosphate (GTP),6,6,,,,,,UNRESOLVED,,UNCLASSIFIED
+Integration host factor (IHF),6,6,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Interferon-γ (IFN-γ),6,5,,,,,,UNRESOLVED,,UNCLASSIFIED
+L-selectin–IgG fusion protein (LS-Rg),6,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Lactoferrin,6,6,,,,,,UNRESOLVED,,UNCLASSIFIED
+Mammaglobin B (MGB2),6,6,,,,,,UNRESOLVED,,UNCLASSIFIED
+Neutrophil elastase (NE),6,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Phenylalanine tRNA, Yeast",6,6,,,,,,UNRESOLVED,,UNCLASSIFIED
+Vibrio parahaemolyticus (V. parahaemolyticus),6,6,,,,,,UNRESOLVED,,UNCLASSIFIED
+Alpha-fetoprotein (AFP),5,5,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+C-terminal region Recombinant human connective tissue growth factor (rhCTGF),5,5,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+CD40 receptor,5,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Cytotoxin CNY,5,5,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+DNA polymerase beta (polβ),5,5,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Digoxin,5,5,,,,,,UNRESOLVED,,UNCLASSIFIED
+HIV-1 aspartyl protease (PR),5,5,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human immunodeficiency virus type-1 trans-activation-responsive (TAR) RNA element,5,5,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Listeria (L. monocytogenes),5,5,,,,,,UNRESOLVED,,UNCLASSIFIED
+M proteins on the surface of Streptococcus pyogenes (S. pyogenes),5,3,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Mammalian translation initiation factor 4A (eIF4A),5,5,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+N-glycolylneuraminic acid (Neu5Gc),5,5,,,,,,UNRESOLVED,,UNCLASSIFIED
+Platelet-derived growth factor (PDGF)-AB,5,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Poly-beta-1,4-N-acetylglucosamine (Chitin) (poly-β-1,6-N-acetyl-D-glucosamine)",5,5,,,,,,UNRESOLVED,,UNCLASSIFIED
+Prokaryotic 16s-rRNA region,5,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+"RNA Mimic of Green Fluorescent Protein (Fluorophores, coupled with fluorescence-activated cell sorting (FACS); Escherichia coli",5,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Rabies virus infected BHK-21 cells,5,5,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Rituximab, anti-CD20 lgG1 antibody",5,5,,,,,,UNRESOLVED,,UNCLASSIFIED
+Rous sarcoma virus (RSV),5,5,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Soluble Interleukin 2 Receptor α (CD25),5,5,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+B52 protein,4,4,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+C-Met receptor,4,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Chemokine CCL17,4,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Colon carcinoma cell lines (HCT-8), Human",4,4,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Colorectal cancer stem cells (CR-CSC),4,4,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Diclofenac (DCF),4,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+Doxycyline,4,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+Enterotoxigenic Escherichia coli (E. coli) (ETEC) K88 fimbriae protein,4,4,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Epithelial cell adhesion molecule (EpCAM),4,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+Escherichia coli (E. coli) ATCC 25922,4,4,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hemagglutinin (HA) of highly pathogenic avian influenza (HPAI H5N1),4,4,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Hirame rhabdovirus (HIRRV),4,4,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Human papillomavirus (HPV)-transformed HeLa cervical carcinoma cells,4,4,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+IFN-gamma-inducible (IFN-γ-Inducible) mCXCL10 Chemokine (also known as IP-10 in humans and CRG-2 in mice),4,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Influenza virus subtype H1N1,4,4,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Influenza virus subtype H3N2,4,4,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+KpnI isoschizomer Acc65I,4,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Lactate dehydrogenase (LDH), Human",4,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Leptin protein, Human",4,4,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mammaglobin A (MGB1),4,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+Mitochondria,4,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+Mouse transferrin receptor (TfR-ECD),4,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mouse tumor endothelial cells (mTEC),4,4,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Mucin 1 (MUC1) recombinant protein MUC1-5TR,4,4,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Nonstructural 5B (NS5B) polymerase, hepatitis C virus (HCV) NS5BΔC55 protein",4,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Ovarian cancer tissues (OVCAR-3, National Cancer Institute #0507709, 104 cells per test)",4,4,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Oxytetracycline (OTC),4,4,,,,,,UNRESOLVED,,UNCLASSIFIED
+Paclitaxel-resistant ovarian cancer cells (A2780T),4,2,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+RNA-dependent RNA polymerase (3Dpol),4,4,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Receptor fibronectin, Trypanosoma cruzi (T. cruzi) parasite",4,4,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant HA protein from swine IAV H3 cluster IV,4,4,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant ovine PrP (Prion protein) of the susceptible-specific (V136R154Q171) or resistant-specific (A136R154R171) alleles,4,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+SARS-CoV-2 Spike glycoprotein,4,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Singapore grouper iridovirus (SGIV)--infected grouper spleen (GS) cells,4,4,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Soluble pleiotropic cytokine interleukin-6 receptor (sIL-6R) and interleukin-6 receptor domain 3 (IL-6R D3),4,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Streptomycin,4,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Tobramycin,4,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+Trans-activation responsive (TAR) RNA element of HIV-1,4,3,,,,,,UNRESOLVED,,NUCLEIC_ACID_TARGET
+"α-Thrombin, Human",4,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+(R)-ibuprofen,3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+"4,4′-methylenedianiline (MDA)",3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+6xHIS–LiPABP protein (rLiPABP),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+8-hydroxy-2′-deoxyguanosine (8-OHdG),3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+ATP (Adenosine triphosphate),3,0,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Abrin toxin,3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Aflatoxin B1 (AFB1),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Alpha thrombin (α-thrombin), Human",3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Ampicillin,3,2,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Amyloid-like fibrils formed in vitro from monomeric beta-2-microglobulin (β2m),3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Angiopoietin-2 (Ang2), Human",3,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+C8-linked ATP agarose,3,3,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Cellobiose,3,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cobinamide dicyanide,3,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cyanocobalamin (vitamin B12),3,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Cytokine (CK+, CK-) stimulated cells that cause Chronic Kidney Disease (CKD)",3,3,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Cytoplasmic domain of CD18,3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+DNA polymerase kappa (polκ),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Egg white lysozyme,3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+Epithelial cellular adhesion molecule (EpCAM),3,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Fibrinogen,3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+Fluoroquinolones,3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+Grass carp reovirus (GCRV)-infected CIK cells,3,3,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Hepatitis C virus NS5B protein (HCV NS5B protein),3,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Human immunodeficiency virus reverse transcriptase (HIV-1 RT),3,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human recombinant full-length CD44 protein,3,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Immunoglobulin E (IgE)-binding epitope of Asp f 1 allergen,3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Interleukin-8 (IL-8),3,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+L-arginine,3,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Light chain of type A botulinum neurotoxin (BoNT/A) (LCA),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Liver X receptors alpha (LXRalpha, LXRα)",3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Liver X receptors beta (LXRbeta, LXRβ)",3,3,,,,,,UNRESOLVED,,NUCLEIC_ACID_TARGET
+"MDA-MB-231 cells, Human",3,3,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Neutrophil gelatinase-associated lipocalin (NGAL),3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Nonstructural protein 3 (NS3) protease active site in the truncated polypeptide ΔNS3, Hepatitis C virus (HCV)",3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Nuclear factor for human IL6 (NF-IL6),3,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Nucleolin,3,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Palladium ion,3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+Pepocin,3,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Plasmodium falciparum (P. falciparum) erythrocyte membrane protein 1 (PfEMP1),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Platelet-derived growth factor (PDGF)-AA,3,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Platelet-derived growth factor (PDGF)-BB,3,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Prion protein rPrP23-231 (rPrPc) fused to glutathione S-transferase (GST), Recombinant Syrian golden hamster",3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Prostate-specific antigen (PSA),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Protein tyrosine phosphatase 1B (PTP1B),3,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Receptor activator of NF-kappaB (RANK), Human",3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Receptor-binding domain (RBD) of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike (S) protein (S/RBD),3,3,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Recombinant human (rhu) cellular prlon protein (Prpc),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Rhesus (Rh) D antigen,3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Ricin toxin,3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Saxitoxin (STX),3,3,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+TFKBP*3R-2G (cell surface protein),3,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+The fluorophore in Green fluorescent protein (GFP) (Ser65-Tyr66-Gly67),3,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Trachinotus ovatus nervous necrosis virus (GTONNV),3,3,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+VP1 structural polypeptide of O-serotype FMD,3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+Vascular pemeability factor/vascular endothelial growth factor (VPF/VEGF),3,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+WT1-ZFP & WT1[+KTS]-ZFP (two zinc finger isoforms of the WT1 DNA binding domain),3,3,,,,,,UNRESOLVED,,UNCLASSIFIED
+(1→3)-β-D-glucans,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+(S)-ibuprofen,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Acetamiprid,2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Activated protein C (APC), Human",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Adenosine and Adenosine Triphosphate (ATP),2,0,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Alpha-synuclein (α-syn) with Glutathione S-transferase (GST) tag,2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Alpha-thrombin (α-thrombin), Human",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Aminoglycoside lividomycin,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Amyloid beta-peptide (Aβ),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Angiopoietin-2 (Ang2),2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Angiotensin converting enzyme 2 (hACE2), Human",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Anterior gradient homolog 2 (AGR2),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Anti-MUC1 IgG3 monoclonal antibody; anti-MUC1 IgG3 MAb, C595 MAb (epitope: Arg-Pro-Ala-Pro)",2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Antigen 85 (Ag85A) (FbpA),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Atrazine,2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Basic fibroblast growth factor (bFGF(155)), Human",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Beta-Site amyloid precursor protein cleaving enzyme 1 (BACE1),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Beta-site amyloid precursor protein cleaving enzyme 1 (BACE-1),2,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Biased conformation(s) of calsenilin,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Bifunctional ribulose 5-phosphate reductase (Bcs1),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Breast cancer cell line SK-BR-3, Human",2,2,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Bronchodilator theophylline,2,1,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+C5 component of human complement (serum glycoprotein),2,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+CD133-positive on cell line HT-29,2,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+CD133-positive on cell line Hep3B,2,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+CD30,2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+CD63 protein,2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Caenorhabditis elegans Bcl-2 homolog CED-9,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Chloramphenicol (CAP),2,2,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Class I typical tetracyclins,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Coagulation Factor IXa (FIXa),2,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Cocaine,2,2,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Coedine,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cytoplasmic tail of BACE (B1-CT),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+"DNA polymerase (Tth pol), Thermus thermophilus (Tth)",2,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Daunomycin,2,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Dickkopf-1(DKK1),2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Disaccharide analogue of moenomycin A,2,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Epidermal growth factor receptor (EGFR),2,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Escherichia coli (E. coli) O157:H7,2,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Extracellular exposed motif of multidrug resistant-associated protein 1 (MRP1),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Farnesylated peptide modeled after the carboxyl terminus of K ras,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Ff gene 5 protein (g5p),2,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Fibronectin,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+G-protein-coupled receptor kinase 2 (GRK2),2,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Glutamate/Glutamic Acid,2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Glutathione S-transferase-fused RBD (GST-RBD) Ras-binding domain (Raf-1 RBD),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+H9N2 avian influenza virus (AIV) purified haemagglutinin (HA),2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hemagglutinin (HA) glycoprotein; Influenza virus,2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hemagglutinin influenza virus (HA influenza virus),2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hepatitis C virus (HCV),2,0,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Histidine-tagged epidermal growth factor receptor variant III (EGFRvIII) ectodomain,2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Homo sapien - CA50,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Homo sapien - CA72-4,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Homo sapien - CEA,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Human immunodeficiency virus type 1 reverse transcriptase (HIV-1 RT),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human imunnodeficiency virus type 1 reverse transcriptase (HIV-1-RT),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Human transferrin receptor (hTfR), CD71 (TfR)",2,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Interleukin 2 receptor alpha (IL2Rα CD25),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+L-Tyrosinamide,2,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+L-selectin receptor globulin (LS-Rg),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Major urinary protein 13 (MUP13) (rat urine biomarker),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mammalian eukaryotic translation initiation factor 4F (eIF4E),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mannose-capped lipoarabinomannan (ManLAM) of Bacillus Calmette–Guérin (BCG),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Mixed lineage leukemia protein 1 (MLL1),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Monocyte chemoattractant protein‐1 (MCP‐1),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Murine CD200R1,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Mycobacterium tuberculosis HspX antigen,2,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+N-methyl mesoporphyrin IX (NMM),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+NS3 Protein of Hepatitis C Virus (HCV),2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Nonpancreatic secretory phospholipase A2 (hnps-PLA2), Human",2,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Norovirus P particles (GG2.4P), Human",2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Nuclear factor of activated T cells DNA binding domain (NFAT DBD),2,2,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"OX40, T cell costimulatory receptor",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Odontogenic ameloblast-associated protein (ODAM), Human",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Oncostatin M (OSM), Human",2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Peptide hormone vasopressin (vertebrate hormone arginine vasopressin (VP), a 9-residue cyclic l peptide)",2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Prostate specific membrane antigen (PSMA) positive LNCaP cells,2,2,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate-Specific Membrane Antigen (PSMA),2,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Prostate-Specific Membrane Antigen (PSMA) of prostate cancer cells,2,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate-specificmembrane antigen (PSMA) of prostate cancer cells,2,2,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Protein kinase C beta II (protein kinase C βII),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Protein tyrosine phosphatases (PTPase) ( Yop51*Δ162 ), Yersinia",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+R5 helix peptide,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+RNA-dependent RNA polymerase (RdRp) (nonstructural protein 5B [NS5B]) of HCV subtype 3a,2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"RPKPQQFFGLM-NH2 (peptide, Substance P )",2,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Receptor-binding domain (RBD) of vascular endothelial growth factor 121 (VEGF121),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Receptor-binding domain (RBD) of vascular endothelial growth factor 165 (VEGF165),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant HA1 proteins of the H5N1 influenza virus,2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Recombinant Human TLR4,2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Recombinant Prostate-Specific Membrane Antigen (PSMA) of prostate cancer cells,2,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Recombinant human 14-3-3 gamma (14-3-3γ),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Recombinant insulin receptor extracellular domain (His-Tagged),2,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant truncated human hepatitis B virus (HBV) P protein (miniP),2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Release factor 1 (RF1), Thermus thermophilus (T. thermophilus)",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Salmonella enteritidis (S. enteritidis),2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Second messenger adenosine 3',5'-cyclic monophosphate (cAMP; 1)",2,1,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Serine protease inhibitor plasminogen activator inhibitor-1 (PAI-1),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Shigella sonnei (S. sonnei),2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Small cell lung cancer (SCLC) cell lines (SBC3 cells),2,2,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Soft-shelled turtle iridovirus (STIV)-infected fathead minnow (FHM) cells,2,2,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Sonic hedgehog ligand (SHh),2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Staphylococcal enterotoxin B (SEB),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Stoffel fragment,2,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Sulforhodamine analogue (ASR) fluorogen,2,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+T4 DNA polymerase (gp43),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Tacrolimus (TAC),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Tetra-BDE congener (BDE47),2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+Thermus aquaticus DNA polymerase (Taq pol),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Thrombin (Sigma), Human",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Thrombin, Bovine",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Tubulin purified, Calf brain",2,2,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Vaccinia-related kinase (VRK1), Human",2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Variant surface glycoprotein 117 (sVSG 117),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Variant surface glycoprotein 221 (sVSG 221),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Vascular endothelial growth factor (VEGF),2,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Vascular endothelial growth factor 165 (VEGF165),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Virus coat protein of two apple stem pitting virus (ASPV) isolates: MT32 and PSA‐H,2,2,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Zika non-structural 1 (NS1) protein,2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Zinc-finger antiviral protein (ZAP),2,2,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"1,1,1-trichloro-2-(p-chlorophenyl)-2-(o-chlorophenyl) ethane (O,p'-DDT)",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+16mer (16-amino acid peptide from collagen XIα1) peptide of the C-telopeptide from human collagen XIα1 (colXIα1),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+25-HydroxyvitaminD3,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"4,4′-Bisphenol (BP)",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+6 fluorine atoms difference bisphenol A (6F BPA),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+ADP-ribosylation factors (ARF) nucleotide-binding site opener (ARNO)/cytohesin-2,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+AIB1 CBP/p300-interaction domain,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Acetylcholine,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Acute promyelocytic leukemia (APL) NB4 cell line,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Adenine,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Advanced glycation end products (AGE), Human serum albumin",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Alpha-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) (α-Amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid) receptors,1,1,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Alpha-amanitin (α-amanitin) from Amanita phalloides (A. phalloides),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Angiopoietin-1 (Ang1),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Annexin A2 (ANXA2),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Anthracyclines daunomycin and doxorubicin,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Anti-FLAG M2 antibody,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Anti-human tumor necrosis factor alpha (anti‐hTNF‐α),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Arsenate [(As(V)],1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Arsenite [As(III)],1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Azlocillin,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+B-lymphocyte antigen (CD20),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Benzylpenicillin (penicillin G),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Beta amyloid peptide (βA4(1–40)),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Beta-crosslap (BC) - osteoporosis biomarker,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Beta-lactoglobulin A,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Beta-lactoglobulin B,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Bifidobacterium bifidum (B. bifidum),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Bisphenol A (BPA),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Bisphenol B (BPB),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Bovine Prion Protein (bPrP),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Bovine factor IX,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Breast cancer cell line SK-BR-4, Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Breast cancer cell line SK-BR-5, Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Breast cancer cell line SK-BR-6, Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Breast cancer cell line SK-BR-7, Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Breast cancer cell line SK-BR-8, Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Brevetoxin-2 (BTX-2),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+C-C chemokine receptor type 5 (CCR5,1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+C-reactive protein (CRP). Human,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+CD28 receptor on T cell,1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+CD33 antigen on leukemia cells,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+CD4-expressing human cells,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"CD63 positive cells, including breast cancer MDA-MB-231 cells and CD63-overexpressed HEK293T cells",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+CDC133 (cell surface markers of Colorectal cancer (CRC)),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cadmium (II),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cancer antigen 125 (CA125) tumor marker,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Cancer stem cells (CSCs) A549 shEcad cells,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Caov-3 epithelial ovarian tumor,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Carbon storage regulation protein A, Escherichia coli (CsrA of E. coli)",1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Carbonic anhydrase IX (CAIX),1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cell-surface Glycoprotein CD44,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Cervical cancer cells Ca Ski, Human",1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Cibacron Blue 3GA,1,1,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Circulating tumor cells (CTCs),1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Cluster of differentiation 70 (CD70) protein,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Complement 5 protein (C5 protein),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Cortisol,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Crystalline hydroxyapatite (Ca10(PO4)6(OH)2; HAP),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cyclic adenosine monophosphate (cAMP),1,1,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Cyclophilin B (CypB),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Cytotoxic T lymphocyte antigen-4 (CTLA-4),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+D-arginine,1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+DC-specific intercellular adhesion molecule (ICAM)-3 grabbing non-integrin (DC-SIGN),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Di(2-ethylhexyl) phthalate (DEHP),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Differentiated pheochromocytoma cells (PC12 cells), Rat",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Dopamine,1,0,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Double homeobox protein 4 (DUX4),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Drosophila muscleblind protein (Mbl),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+D‐staphylococcal enterotoxin B peptide ( full-length SEB protein),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+D‐staphylococcal enterotoxin B peptide (respective SEB peptides),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+E2F transcription factor,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Ebola virus (EBOV) recombinant NP his-tagged,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Endothelial regulatory protein pigpen (YPEN-1),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Epidermal growth factor receptor 2, Human (ErbB-2/HER2)",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Epididymis 4, Human",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Epithelial Growth Factor Receptor (EGFR),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Epithelial cell adhesion molecule (EpCAM), also known as CD326 or ESA",1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Epitope peptide of human epithelial growth factor receptor 2 (HER2),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Escherichia coli (E.coli) DH5 alpha (DH5α),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Extracellular domain (ECD) of human epithelial growth factor receptor 2 (HER2) protein,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Extracellular domain of AXL,1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Factor Xa,1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Factors V and Va (FV and FVa),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Fc-gamma receptor III (FcγRIII) (CD16α),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Fluorescein,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Forkhead box protein M1 (FOXMI) DNA-binding domain (DBD),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Fractalkine (FKN),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Furaneol,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+G-protein-coupled cholecystokinin B receptor (CCKBR),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Gastric cancer cell-line (HGC-27),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Gastrointestinal cancer antigen 50,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Gastrointestinal cancer antigen 72–4,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Gastrointestinal carcinoembryonic antigen,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Glioblastoma cell line U87MG,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Glioblastoma-derived cell line (U251),1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Glucagon receptor (GCGR),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Glycated Human Serum Albumin (GHSA),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Glycosylated receptor-binding domain of the HA protein (gHA1),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Glygoprotein 2 (GP2), Mouse",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Golgi protein-73 (GP 73),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Gremlin-1,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Group A streptococcus (GAS) serotype M3,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Group A streptococcus (GAS) serotype M4,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Guanine,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+HIV-1 Capsid (CA) lattice tubes,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Haemagglutinin (HA) region of the target strain A/Panama/2007/1999(H3N2),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Helicobacter pylori (H. pylori),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Hepatitis B surface antigen (HBsAg),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Hepatitis B virus (HBV) core protein (HBc),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hepatitis C virus (HCV) envelope surface glycoprotein E2,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hepatitis C virus (HCV) envelope surface glycoprotein E3,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hepatitis C virus (HCV) envelope surface glycoprotein E4,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Hepatocellular carcinoma (HCC) CD44E,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Hepatocellular carcinoma (HCC) CD44s,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Hepatocellular carcinoma HCCLM9 (LY-1),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Herpes simplex virus-1 (HSV-1) US11,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Heterogeneous nuclear ribonucleoprotein A1 (hnRNP A1),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+His3-tagged recombinant proteins,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human T-cell acute lymphoblastic leukemia CCRF-CEM cells (later identified to bind PTK-7),1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Human epidermal growth factor receptor (hEGFR),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human immunodeficiency virus (HIV)-1Bal gp120 protein,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Human immunodeficiency virus (HIV-1) integrase,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Human immunodeficiency virus reverse transcriptase (HIVRT),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human immunodifficiency virus type 1 (HIV-1) p24 Recombinant Protein,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Human papillomavirus type 16 (HPV-16) E7 oncoprotein,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Human transcription factor NF-kB as a p50 homodimer (p502),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human transferrin receptor (hTfR),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Human-derived hepatoma cell line HepG2,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Human-derived hepatoma cell line HepG3,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Human-derived hepatoma cell line HepG4,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Hyper-Interleukin-6 (IL-6) (a fusion protein of sIL-6R and IL-6),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Immunoglobulin G (IgG) Fc fragment, Mouse",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Inflamed endothelial cells,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Influenza B virus hemagglutinin (HA) (B/Johannesburg/05/1999), Human",1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Influenza virus non-structural protein 1 (NS1) protein,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Insulin like growth factor II receptor (IGFIIR), Homo sapien",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Integrin α5β1-expressing cells, Human & Chinese Hamster",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Interferon-gamma (IFN-γ),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Interleukin-17A (IL‐17A),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Interleukin-6 receptor (IL-6R), Human",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Isoleucyl-tRNA synthetase (tRNAIle),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Japanese encephalitis virus methyltransferase (JEV MTase),1,0,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Japanese encephalitis virus methyltransferase (JEV NS5),1,0,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Klebsiella Pneumoniae Carbapenemase 2 (KPC-2) specifically on KPC-2 Escherichia coli (E. coli),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+L-citrulline [L-(+)-2-amino-5-ureidovaleric acid],1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+L-tryptophan,1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+L-tyrosine,1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Lactate dehydrogenase-5 (LDH-5), Human",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Lethal factor (LF): one of three toxins produced by Bacillus anthracis (B. anthracis),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"MAb198 antibody, Rat",1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+MUC1 protein,1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mammalian cell-expressed human recombinant low-density lipoprotein receptor (LDL-R) protein,1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mammalian cells,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Mas-related G-protein coupled receptor X2 (MRGPRX2),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Matrix binding domain [MBD] Hepatitis B capsid,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Melanoma‐associated antigen A3 (MAGE‐A3),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Membrane proteins of matrix metalloproteinase 14 (MMP14) transfected 293T cells,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Metastatic colorectal carcinoma cell line LoVo,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Methicillin-resistant Staphylococcus aureus (MRSA),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Migraine-associated calcitonin gene-related peptide 1 (alpha-CGRP; α-CGRP),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Monoclonal antibody 198 (Mab198),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Monoclonal antibody against OA (OA-mAb-F(ab′)2),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Mouse epidermal growth factor receptor (mEGFR),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mucin 1 (MUC1),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Murine receptor DEC205 (mDEC205),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Mycobacterium tuberculosis (M. tuberculosis) H37Ra,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Mycobacterium tuberculosis (Mtb) Malate synthaseMS,1,0,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+N-methylmesoporphyrin IX (NMM),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+N-terminal region of Recombinant human connective tissue growth factor (rhCTGF),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"N/A (negative control, binds to nothing)",1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+N6-adenine,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+NS3 protease of hepatitis C virus (HCV),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Neuropeptide Y (NPY),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Nonylphenol ethoxylate (NPE),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Nuclear factor of activated T cells NFATc DNA binding domain (DBD),1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Nucleoprotein (NP) of the crimean-congo hemorrhagic fever (CCHF) virus,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Okadaic acid (OA),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Oligomeric state of the extracellular domains of human epidermal growth factor receptor-3 (HER3ECD),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Olive (Olea europaea L.) pollen 1 (Ole e 1),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Osteocalcin (OC) - osteoporosis biomarker,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Osteoponin (OPN), Human",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Osteosarcoma MG-63 cell line, Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"PD-L1 (MDA-MB-231 PD-L1 OE cells), Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Papillary thyroid carcinoma cell line TPC-1,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Papillary thyroid carcinoma cell line TPC-2,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Penicillin G,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Primary cultured Mouse tumor endothelial cells (mTECs),1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Prion protein (PrP), Mouse",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Pro-gastrin-Releasing Peptide (proGRP),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Programmed death-ligand 1 (PD-L1)-expressing cells,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate cancer (PCa) cell line PC-3,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate cancer (PCa) cell line PC-4,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate cancer (PCa) cells,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate cancer bone metastasis (PB),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Prostate cancer cell line PC-3,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate-Specific Membrane Antigen(PSMA) of prostate cancer cells,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Prostate-specific membrane antigen (PSMA) of prostate cancer cells,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Proteasome‐associated deubiquitylating enzyme UCH37,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Protective antigen (PA) PA63,1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Protein Tyrosine Kinase-7 (PTK7),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Protein kinase C-delta (PKCδ),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+RHER2/neu protein via TUBO cell line,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"RNA polymerase II (Pol II), Saccharomyces cerevisiae (S. cerevisiae)",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+RNA stem-loop target (5'GCACGGTGCTGCTGAGATGCCCGT3'),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+RNase H domain of human immunodeficiency virus-1 reverse transcriptase (HIV-1 RT),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+RNase H2 from Clostridium difficile (C. difficile) (CDH2),1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Ractopamine (RAC),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Rat neurotensin receptor NTS-1,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Reactive Blue 4,1,1,,,,,,UNRESOLVED,,LIKELY_SMALL_MOLECULE
+Receptor-binding domain (RBD) of SARS-CoV-2 spike protein (S protein),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant GluR2Qflip AMPA receptor transiently expressed in HEK-293 (human embryonic kidney) cells,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+"Recombinant basic fibroblast growth factor (bFGF), Human",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant human E-selectin/IgG-Fc-chimeras,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Recombinant human erythropoietin-alpha (rHuEPO-α),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Recombinant ovine PrP (Prion protein) of the susceptible-specific (V136R154Q171),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant ovine PrP (prion protein) of the susceptible-specific (V136R154Q171) or resistant-specific (A136R154R171) alleles,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Recombinant transforming growth factor-beta type III receptor displayed on cell surface,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Release factor 1, Escherichia coli (E. Coli)",1,0,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Rex fusion protein of Human T-lymphotropic virus 1 (HTLV-1),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Ribonucleases (RNase) H1, Human",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Ribonucleases (RNase) H2, Human",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Rituximab, anti-CD20 lgG1antibody",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+"S37A-β-catenin, Human",1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+SARS CoV N protein,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+SARS-CoV nucleocapsid (N) protein,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+SARS-CoV-2 [2019-nCoV (novel coronavirus 2019)] nucleocapsid-his recombinant protein,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"SKBR3 spheroid breast cancer cells, Human",1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Salivary peptide histatin-3 (synthetic H3 peptides),1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Salmonella Paratyphi A,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Salmonella Typhimurium,1,0,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"SelB protein, Escherichia coli",1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Sephadex G-100,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Sialyl Lewis X (sLeX)-expressing HL60 cells,1,0,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+SipA effector protein secreted by type three secretory system (T3SS),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Special elongation factor SelB of Escherichia coli,1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Spores of three toxic aspergillus species: A. niger,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Spores of toxic aspergillus species: A. flavus,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Spores of toxic aspergillus species: A. fumigatus,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Streptavidin (SA),1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Subtilisin BPN,1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Sulfamethazine (SMZ),1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+"T Cell costimulatory receptor, OX40",1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+T-Cell Factor-1 (TCF-1) protein,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Tat protein from HIV-1 in the presence of Zn2+ ion,1,1,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Tax protein of the human T-cell lymphomatic virus (HTLV-1),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+Tenascin-C (TN-C),1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Tenascin-C (TN-C) (Fibrinogen-like domain of TN-C),1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+"Thrombin, Human and porcine",1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+"Thrombin, Rat",1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Thyroglobulin (Tg),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Thyroxine (T4),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Toxic beta-amyloid 42 dimer (Aβ42),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Triple-negative breast cancer (TNBC) cell line MDA-MB-231,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Triple-negative breast cancer (TNBC) cell line MDA-MB-232,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Triple-negative breast cancer (TNBC) cell line MDA-MB-233,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Triple-negative breast cancer (TNBC) cell line MDA-MB-234,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Triple-negative breast cancer (TNBC) cell line MDA-MB-235,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Triple-negative breast cancer (TNBC) cell line MDA-MB-236,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Trypanosome variant surface glycoprotein (VSG),1,0,,,,,,UNRESOLVED,,LIKELY_PROTEIN
+Type IVB pili of Salmonella enterica (S. enterica) serovar Typhi (pre-PilS),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+U-2 OS human osteosacroma cells,1,1,,,,,,UNRESOLVED,,CELL_OR_CELL_LINE
+Vaccinia virus (VACV) as a model for orthopoxviruses (OPV),1,1,,,,,,UNRESOLVED,,ORGANISM_OR_PARTICLE
+"Xanthine (2,6-dioxypurine)",1,0,,,,,,UNRESOLVED,,UNCLASSIFIED
+Zearalenone (ZEN),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED
+Β-casomorphin-7 (BCM-7),1,1,,,,,,UNRESOLVED,,UNCLASSIFIED

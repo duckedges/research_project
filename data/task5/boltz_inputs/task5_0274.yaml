@@ -1,0 +1,11 @@
+version: 1
+sequences:
+  - ligand:
+      id: A
+      smiles: "[Pd+2]"
+  - dna:
+      id: B
+      sequence: CGTACGGAATTCGCTAGCCCCCGCTGCCCGTGTTCCGTCCTCCCTTGCTGTGTGTGCGGGATCCGAGCTCCACGTG
+properties:
+  - affinity:
+      binder: B

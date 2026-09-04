@@ -1,0 +1,18 @@
+TASK 5 AFFINITY COLLECTION
+
+Total planned complexes: 342
+Successful affinity predictions: 337
+Missing affinity outputs: 5
+Invalid affinity outputs: 0
+
+Primary ranking field:
+affinity_pred_value
+
+Ranking direction:
+lowest to highest
+
+Ranked results:
+/projects/bentosprg6/linwx/research_project/data/task5/task5_affinity_ranked.csv
+
+Full run status:
+/projects/bentosprg6/linwx/research_project/data/task5/task5_all_status.csv
