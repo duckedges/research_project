@@ -141,3 +141,57 @@ After that:
 2. Run AF3 embedding export as a Slurm array.
 3. Train AF3-to-Boltz representation adapters / affinity components.
 4. Evaluate train/validation/test performance.
+
+============================================================
+TASK 6 HELD-OUT TEST EVALUATION
+============================================================
+
+Final evaluation used:
+- 48 training complexes
+- 8 validation complexes
+- 8 held-out test complexes
+- 0 test cases used for training, early stopping, or model selection
+
+Fine-tuning method:
+Boltz-2 affinity Head 1 final 384->1 regression layer was fine-tuned
+on AF3-derived representations. The remaining pretrained affinity
+network was frozen.
+
+Checkpoint validation:
+Stored best validation RMSE: 0.4207248688
+Reconstructed validation RMSE: 0.4207251924
+Checkpoint reconstruction: PASS
+Best epoch: 3
+
+Held-out test results:
+
+Calibrated pretrained Head 1:
+MAE = 1.718852
+RMSE = 2.070928
+Pearson r = 0.890389
+Spearman rho = 0.809524
+R2 = -0.268738
+
+Fine-tuned Head 1:
+MAE = 1.888047
+RMSE = 2.315573
+Pearson r = -0.230674
+Spearman rho = -0.380952
+R2 = -0.586202
+
+Calibrated pretrained ensemble:
+MAE = 1.722977
+RMSE = 2.075092
+Pearson r = 0.773106
+Spearman rho = 0.690476
+R2 = -0.273844
+
+Conclusion:
+Fine-tuning successfully completed but did not improve held-out
+generalization. The calibrated pretrained Head 1 performed better
+than the fine-tuned Head 1 on the 8-case test set. The discrepancy
+between validation and test performance suggests overfitting and/or
+high variance from the small pilot dataset.
+
+Final held-out test labels were not used for training or model
+selection.
