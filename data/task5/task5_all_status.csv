@@ -336,8 +336,8 @@ task5_0053,UTEXAS_10000241_R262,UTEXAS_10000241,29A-OH,DNA,Nucleolin,protein,,2.
 task5_0002,UTEXAS_10000004_R6,UTEXAS_10000004,15 mer (colloquially known as Bock DNA Aptamer),DNA,"Thrombin (Sigma), Human",protein,112.5,2.8431596755981445,0.12261407822370529,5.109675407409668,1.686505157749707e-07,0.5766441226005554,0.24522799253463745,SUCCESS,/projects/bentosprg6/linwx/research_project/results/task5/batch/task5_0002/boltz_results_task5_0002/predictions/task5_0002/affinity_task5_0002.json
 task5_0161,UTEXAS_10000585_R614,UTEXAS_10000585,F47tr,RNA,RNA-dependent RNA polymerase (3Dpol),protein,325,3.2321085929870605,0.15681442618370056,5.693639755249023,5.361420640781489e-09,0.7705774903297424,0.3136288523674011,SUCCESS,/projects/bentosprg6/linwx/research_project/results/task5/batch/task5_0161/boltz_results_task5_0161/predictions/task5_0161/affinity_task5_0161.json
 task5_0054,UTEXAS_10000242_R263,UTEXAS_10000242,GRO29A ,DNA,Nucleolin,protein,,3.4372799396514893,0.05372738093137741,6.895526885986328,9.359083196613938e-05,-0.02096705138683319,0.10736116766929626,SUCCESS,/projects/bentosprg6/linwx/research_project/results/task5/batch/task5_0054/boltz_results_task5_0054/predictions/task5_0054/affinity_task5_0054.json
-task5_0049,UTEXAS_10000216_R237,UTEXAS_10000216,APC-167,RNA,"Activated protein C (APC), Human",protein,,,,,,,,GPU_OOM,
-task5_0050,UTEXAS_10000217_R238,UTEXAS_10000217,APC-99,RNA,"Activated protein C (APC), Human",protein,,,,,,,,GPU_OOM,
-task5_0313,UTEXAS_10001288_R1332,UTEXAS_10001288,APT 1,RNA,Mixed lineage leukemia protein 1 (MLL1),protein,,,,,,,,GPU_OOM,
-task5_0314,UTEXAS_10001289_R1333,UTEXAS_10001289,APT 2,RNA,Mixed lineage leukemia protein 1 (MLL1),protein,,,,,,,,GPU_OOM,
-task5_0330,UTEXAS_10001349_R1395,UTEXAS_10001349,T-2,DNA,Thyroglobulin (Tg),protein,3.18,,,,,,,GPU_OOM,
+task5_0049,UTEXAS_10000216_R237,UTEXAS_10000216,APC-167,RNA,"Activated protein C (APC), Human",protein,,,,,,,,MISSING,
+task5_0050,UTEXAS_10000217_R238,UTEXAS_10000217,APC-99,RNA,"Activated protein C (APC), Human",protein,,,,,,,,MISSING,
+task5_0313,UTEXAS_10001288_R1332,UTEXAS_10001288,APT 1,RNA,Mixed lineage leukemia protein 1 (MLL1),protein,,,,,,,,MISSING,
+task5_0314,UTEXAS_10001289_R1333,UTEXAS_10001289,APT 2,RNA,Mixed lineage leukemia protein 1 (MLL1),protein,,,,,,,,MISSING,
+task5_0330,UTEXAS_10001349_R1395,UTEXAS_10001349,T-2,DNA,Thyroglobulin (Tg),protein,3.18,,,,,,,MISSING,
