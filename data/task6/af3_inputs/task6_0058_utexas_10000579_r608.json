@@ -1,0 +1,25 @@
+{
+  "name": "task6_0058_utexas_10000579_r608",
+  "modelSeeds": [
+    42
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MRKIVVAAIAVSLTTVSITASASADPSKDSKAQVSAAEAGITGTWYNQLGSTFIVTAGADGALTGTYESAVGNAESRYVLTGRYDSAPATDGSGTALGWTVAWKNNYRNAHSATTWSGQYVGGAEARINTQWLLTSGTTEANAWKSTLVGHDTFTKVKPSAASIDAAKKAGVNNGNPLDAVQQ",
+        "unpairedMsa": "",
+        "pairedMsa": "",
+        "templates": []
+      }
+    },
+    {
+      "dna": {
+        "id": "B",
+        "sequence": "ATACCAGCTTATTCAATTCGGGGGGTACGTGCCCGTGTTGCTCGGCGGCCCCCTCGCTTATTTTTGTGTGCCCTTTAGATAGTAAGTGCAATCT"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 4
+}
