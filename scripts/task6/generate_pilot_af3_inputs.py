@@ -158,6 +158,7 @@ for idx, row in df.reset_index(drop=True).iterrows():
             "rna": {
                 "id": "B",
                 "sequence": aptamer_seq,
+                "unpairedMsa": "",
             }
         }
 

@@ -16,7 +16,8 @@
     {
       "rna": {
         "id": "B",
-        "sequence": "GGGAGGACGAUGCGGAGAAGAAUGCAGGAAACAGCGAAAUGCGUGUGGCCAGACGACUCGCCCGA"
+        "sequence": "GGGAGGACGAUGCGGAGAAGAAUGCAGGAAACAGCGAAAUGCGUGUGGCCAGACGACUCGCCCGA",
+        "unpairedMsa": ""
       }
     }
   ],
