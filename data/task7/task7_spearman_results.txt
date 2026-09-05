@@ -1,0 +1,49 @@
+TASK 7 — EXPERIMENTAL AFFINITY RANKING ANALYSIS
+
+Interpretation:
+- Lower experimental Kd = stronger binding.
+- Rankings use ascending values, so rank 1 = strongest.
+- Task 5 Boltz affinity_pred_value is ranked ascending.
+- Task 6 AF3+affinity Head-1 predicts the log(Kd)-derived target,
+  so Head-1 predictions are also ranked ascending.
+
+PRIMARY FAIR COMPARISON: SAME 8 HELD-OUT COMPLEXES
+------------------------------------------------
+
+Standalone Boltz-2 vs experimental Kd
+N = 8
+Spearman rho = -0.285714
+Exact two-sided permutation p = 0.500794
+
+AF3 + calibrated pretrained Head-1 vs experimental Kd
+N = 8
+Spearman rho = 0.809524
+Exact two-sided permutation p = 0.021776
+
+SECONDARY AF3+AFFINITY RESULTS
+-----------------------------
+
+AF3 + fine-tuned Head-1
+Spearman rho = -0.380952
+Exact p = 0.359871
+
+AF3 + raw pretrained Head-1
+Spearman rho = 0.809524
+Exact p = 0.021776
+
+AF3 + calibrated ensemble
+Spearman rho = 0.690476
+Exact p = 0.069395
+
+SUPPLEMENTAL STANDALONE BOLTZ RESULT
+------------------------------------
+
+All usable Task 5 Boltz cases
+N = 301
+Spearman rho = -0.264431
+
+Note:
+The full-set Boltz correlation is supplemental and should not be directly
+compared numerically with the AF3+affinity held-out correlation because
+the sample sets differ. The matched-8 analysis is the fair head-to-head
+comparison.

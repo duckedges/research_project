@@ -1,0 +1,78 @@
+TASK 7 — EXPERIMENTAL AFFINITY ANALYSIS
+Completed: 2026-09-04
+
+GOAL
+Sort experimental affinity data from lowest to highest Kd and calculate
+Spearman rank correlations between experimental affinity and:
+1. standalone Boltz-2 affinity predictions
+2. AF3 + Boltz-2 affinity-module predictions
+
+INTERPRETATION
+Lower experimental Kd corresponds to stronger binding.
+Rank 1 therefore represents the strongest experimentally measured binder.
+
+PRIMARY ANALYSIS SET
+The same 8 held-out complexes from Task 6 were used for the primary
+head-to-head comparison. These cases were not used for Task 6 training
+or model selection.
+
+EXPERIMENTAL KD ORDER, STRONGEST TO WEAKEST
+1. UTEXAS_10001056_R1099 — 0.11 nM
+2. UTEXAS_10001057_R1100 — 0.20 nM
+3. UTEXAS_10001248_R1292 — 8.75 nM
+4. UTEXAS_10001152_R1196 — 51.46 nM
+5. UTEXAS_10001055_R1098 — 56.9 nM
+6. UTEXAS_10001153_R1197 — 403.7 nM
+7. UTEXAS_10001154_R1198 — 543.3 nM
+8. UTEXAS_10001412_R1461 — 135000 nM
+
+PRIMARY MATCHED-8 RESULTS
+
+Standalone Boltz-2 vs experimental Kd:
+N = 8
+Spearman rho = -0.285714
+Exact two-sided permutation p = 0.500794
+
+AF3 + calibrated pretrained Head-1 vs experimental Kd:
+N = 8
+Spearman rho = 0.809524
+Exact two-sided permutation p = 0.021776
+
+SECONDARY AF3 + AFFINITY RESULTS
+
+Raw pretrained Head-1:
+Spearman rho = 0.809524
+Exact p = 0.021776
+
+Fine-tuned Head-1:
+Spearman rho = -0.380952
+Exact p = 0.359871
+
+Calibrated ensemble:
+Spearman rho = 0.690476
+Exact p = 0.069395
+
+SUPPLEMENTAL FULL STANDALONE BOLTZ ANALYSIS
+Usable Task 5 cases: N = 301
+Spearman rho = -0.264431
+
+The full-set Boltz result is supplemental and is not directly compared
+to the AF3 held-out coefficient because the evaluated sample sets differ.
+
+INTERPRETATION
+On the matched held-out set, standalone Boltz-2 showed weak negative
+agreement with the experimentally measured affinity ranking.
+
+The AF3 + pretrained/calibrated Boltz affinity Head-1 showed strong
+positive agreement with the experimental ranking (rho = 0.8095).
+
+Fine-tuning the final Head-1 regression layer did not improve
+generalization and instead produced a negative held-out rank
+correlation, consistent with the Task 6 conclusion that fine-tuning
+overfit the small pilot dataset.
+
+OUTPUT FILES
+data/task7/task7_matched8_affinity_rankings.csv
+data/task7/task7_experimental_kd_sorted_all_boltz.csv
+data/task7/task7_spearman_results.txt
+scripts/task7/analyze_affinity_rankings.py
